@@ -16,8 +16,9 @@ function createConfig() {
         useDatedFolder: false,
         upload: {
           use_filename: true,
+          format: webp,
           unique_filename: false,
-          overwrite: false,
+          overwrite: true,
           folder: "ghost-images",
           tags: ["blog"],
         },
